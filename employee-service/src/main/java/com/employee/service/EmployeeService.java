@@ -48,7 +48,7 @@ public class EmployeeService {
 
 		int size = this.employeeDAO.getAllEmployees().size();
 		
-		int sum = 100;
+		int sum = 200;
 		
 		Iterator<Employee> iterator = this.employeeDAO.getAllEmployees().iterator();
 		 
